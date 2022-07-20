@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MAD FAMILY</title>
+</head>
+<body>
+    <section id="navbar">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img id="home" src="./imgs/home.png" style="padding: 0; margin: 0; width: 15px; height: 15px">
+                </a>
+            </li>
+            <li id="cadastro" class="dropdown">
+                <a href="javascript:void(0);" class="dropbtn">Cadastro</a>
+                <div class="dropdown-content">
+                    <a href="pages/itens.html" target="main-frame">Itens</a>
+                    <a href="pages/venda.html" target="main-frame">Vendas</a>
+                </div>
+            </li>
+            <li id="meta"><a href="pages/meta.html" target="main-frame">Meta</a></li>
+            <li id="meus-itens"><a href="pages/meus-itens.html" target="main-frame">Meus Itens</a></li>
+            <li id="administracao" class="dropdown">
+                <a href="javascript:void(0);" class="dropbtn">Administração</a>
+                <div class="dropdown-content">
+                    <a id="usuarios" href="pages/admin/usuarios.html" target="main-frame">Usuários</a>
+                    <a id="grupos" href="pages/admin/grupos.html" target="main-frame">Grupos</a>
+                    <a id="relatorios" href="pages/admin/relatorios.html" target="main-frame">Relatórios</a>
+                    <a id="encomendas" href="pages/admin/encomendas.html" target="main-frame">Encomendas</a>
+                    <a id="calculadora" href="pages/utils/calculadora.html" target="main-frame">Calcular Itens</a>
+                </div>
+            </li>    
+        </ul>
+    </section>
+    <section id="main">
+        <iframe name="main-frame"></iframe>
+    </section>
+    <section id="footer">
+        Copyright@2022
+    </section>
+</body>
+</html>

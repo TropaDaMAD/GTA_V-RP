@@ -1,0 +1,17 @@
+const item = {
+      Keycard,
+      Lockpick,
+      Capuz,
+      Algemas,
+      Colete,
+      Placa,
+      Pendrive,
+      C4,
+      Molas,
+      Gatilhos,
+      PlacadeMetal,
+    }
+    
+    Object.keys(item).forEach((i) => {
+      console.log(i + " = " + item[i]);
+    });
