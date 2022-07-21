@@ -15,7 +15,7 @@ function verificarTipo() {
       Gatilhos: 10985,
       PlacaMetal: 10205,
       kitPistola: 41600,
-      kitFuzil:1,
+      kitFuzil:59930,
     };
     resultado(preco);
   } else if (tipo == "parceria") {
@@ -32,7 +32,7 @@ function verificarTipo() {
       Gatilhos: 10985,
       PlacaMetal: 10205,
       kitPistola: 41600,
-      kitFuzil:1,
+      kitFuzil:59930,
     };
     resultado(preco);
   } else if (tipo == "sujo") {
@@ -49,7 +49,7 @@ function verificarTipo() {
       Gatilhos: 10985,
       PlacaMetal: 10205,
       kitPistola: 41600,
-      kitFuzil:1,
+      kitFuzil:59930,
     };
     resultado(preco);
   } else if (tipo == "sujoParceria") {
@@ -66,7 +66,7 @@ function verificarTipo() {
       Gatilhos: 10985,
       PlacaMetal: 10205,
       kitPistola: 41600,
-      kitFuzil:1,
+      kitFuzil:59930,
     };
     resultado(preco);
   } else {
